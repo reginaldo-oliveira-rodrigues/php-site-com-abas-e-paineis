@@ -1,0 +1,66 @@
+.pequeno{ width: 6em; }
+.medio{ width: 14em; }
+
+.texto{
+	font-family: Tahoma, Verdana, Arial;
+	color: #ffe8a8;
+}
+
+.no-meio{ text-align: center; }
+.flutuar-a-esquerda{ float: left; }
+
+.largura-total{ width: 100%; }
+.largura-grande{ width: 83.44em; }
+
+.altura-grande{ height: 38em; }
+
+.visivel{ display: block; }
+.invisivel{ display: none; }
+
+.painel-de-abas{
+	overflow: hidden;
+	height: 2.8em;
+	background: linear-gradient( #00830a, #ebff3e, #50e200, #001b6a );
+}
+
+.conjunto-de-abas{ cursor: pointer; list-style-type: none; margin-left: 15%; }
+.conjunto-de-abas li{ margin: 0.1em; }
+
+.aba{
+	background-color:#047400;
+	width: 9.9em; 
+}
+
+.personalizacao-de-painel{
+	background-color: #047400;
+	border: 0.2em solid #43cb00;
+}
+
+.cantos-arrendondados{ border-radius: 4em; }
+.cantos-pouco-arrendondados-em-cima{ border-radius: 0.4em 0.4em 0 0; }
+.cantos-arrendondados-embaixo{ border-radius: 0 0 4em 4em; }
+
+#conf-form{ 
+	z-index: 1; 
+	position: absolute;
+	left: 30.3%;
+	width: 13em;
+}
+
+#formulario-de-login{
+	z-index: 10; 
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	width: 30%;
+}
+
+.painel-do-meio{ 
+	float:left;
+	z-index: 0;
+	position: relative; 
+}
+
+.fundo-azul{ background: #4a9eff; }
+.fundo-laranja{ background: #ff7645; }
+.fundo-ciano{ background: #54f1ff; }
